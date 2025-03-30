@@ -3,7 +3,7 @@ from pymongo.server_api import ServerApi
 import gridfs
 
 # MongoDB connection
-uri = "mongodb+srv://kishore88708585:MFAcJVhVP3oq65K9@cluster0.a0gih.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://xxxxxxxxxxxxxxxxxxxxx@cluster0.a0gih.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client.petition_db
 
